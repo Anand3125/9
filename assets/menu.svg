@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+<svg width="800px" height="800px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Blurred Background -->
+  <defs>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="8" result="blurred" />
+    </filter>
+  </defs>
+  <rect width="24" height="24" fill="white" opacity="0.6" filter="url(#blur)"/>
+
+  <!-- Icon -->
+  <path d="M4 18L20 18" stroke="#6c5ce7" stroke-width="2" stroke-linecap="round"/>
+  <path d="M4 12L20 12" stroke="#6c5ce7" stroke-width="2" stroke-linecap="round"/>
+  <path d="M4 6L20 6" stroke="#6c5ce7" stroke-width="2" stroke-linecap="round"/>
+</svg>

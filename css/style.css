@@ -1,0 +1,439 @@
+/* General Styles */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Libre+Baskerville:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+.status-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    background-color: white; /* Optional: Match your app's background */
+    font-family: 'Arial', sans-serif;
+    font-size: 0.875rem; /* 14px */
+    color: #333;
+   
+  }
+  
+  .status-bar .time {
+    font-weight: 600;
+    font-family: Inter;
+    color: #555;
+    margin-left: 1rem;
+  }
+  
+  .status-bar .status-icons {
+    display: flex;
+    size: 4px;
+    gap: 0.5rem; /* Space between icons */
+  }
+  
+  .status-bar .status-icons span {
+    font-size: 1rem; /* Adjust size for the icons */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .status-bar .status-icons .location-icon{
+    font-size: 0.50rem; /* Adjust size for the icons */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .status-icons .battery img, 
+.status-icons .battery svg {
+  width: 1.5rem; /* Adjust size */
+  height: 1.5rem;
+  display: block; /* Ensures it scales properly */
+}
+.status-icons .wifi img, 
+.status-icons .wifi svg {
+  width: 1.0rem; /* Adjust size */
+  height: 1.0rem;
+  display: block; /* Ensures it scales properly */
+}
+
+.status-icons .tower img, 
+.status-icons .tower svg {
+  width: 1.0rem; /* Adjust size */
+  height: 1.0rem;
+  display: block; /* Ensures it scales properly */
+}
+
+
+
+  
+/* General Styles for Profile */
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .profile img {
+    width: 3.75rem; /* 60px */
+    height: 3.75rem;
+    border-radius: 50%; /* Circle shape */
+    object-fit: cover;
+    box-shadow: 0 0 0.3125rem rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  /* Specific Styles for Add Profile */
+  .add-profile {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3.75rem; /* 60px */
+    height: 3.75rem;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  
+  .add-profile img {
+    width: 100%;
+    height: 100%;
+    border: none; /* No border for Add profile */
+  }
+  
+  .add-icon {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1.5rem; /* 24px */
+    height: 1.5rem;
+    background-color: #6c5ce7; /* Purple background for + button */
+    color: white;
+    border-radius: 50%; /* Circular button */
+    font-size: 1rem; /* Adjust size for + symbol */
+    z-index: 1; /* Ensure it's above the image */
+  }
+  
+  .profile p {
+    margin-top: 0.5rem;
+    font-size: 0.875rem; /* 14px */
+    color: #333; /* Dark text color */
+  }
+  
+/* General Profile Styles */
+.profile img {
+    width: 3.75rem; /* 60px */
+    height: 3.75rem; /* 60px */
+    border-radius: 50%; /* Circle shape */
+    object-fit: cover;
+    border: 0.3125rem solid #6c5ce7; /* Outer Blue Border */
+    box-shadow: 0 0 0.3125rem rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  /* Add Inner White Border */
+  .profile img {
+    background-clip: content-box;
+    padding: 0.25rem; /* Adds inner padding to create a white border */
+    background-color: #fff; /* White Border */
+  }
+  
+  /* "Add" Button Specific Styling */
+  .profile.add {
+    position: relative;
+    width: 3.75rem; /* 60px */
+    height: 3.75rem; /* 60px */
+    border-radius: 50%; /* Circle shape */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #6c5ce7; /* Blue Background */
+    border: 0.1875rem dashed #fff; /* White Dashed Border */
+  }
+  
+  .profile.add .add-icon {
+    font-size: 1.5rem; /* Larger Font for "+" */
+    color: #fff; /* White Color for Text */
+  }
+  
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:"gradient(to right, #bdb6f6, #edebfa)";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    width: 23.4375rem; /* 375px */
+    background:"#edebfa";
+    
+    border-radius: 1.25rem; /* 20px */
+    box-shadow: 0 0.5rem 1.25rem rgba(0, 0, 0, 0.1); /* 8px 20px */
+    overflow: hidden;
+  }
+  
+  /* Header Section */
+ /* Updated Header Styles */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem; /* Use rem for spacing */
+    background-color:"gradient(to right, #bdb6f6, #edebfa)";
+    /* #bdb6f6, #edebfa */
+  }
+  
+  .header-left {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .location-label {
+    font-size: 0.875rem; /* 14px */
+    color: #aaa;
+    margin: 0;
+    font-family: inherit;
+  }
+  
+  .dropdown {
+    display: flex;
+    align-items: center;
+    margin-top: 0.25rem; /* Slight spacing between label and dropdown */
+    cursor: pointer;
+  }
+  
+  .location-icon {
+    font-size: 1rem; /* 16px */
+    color: #6c5ce7; /* Purple icon */
+    margin-right: 0.5rem; /* Space between icon and text */
+  }
+  
+  .location-text {
+    font-family: inter;
+    font-size: 1rem; /* 16px */
+    font-weight: 500;
+    color: #333;
+  }
+  
+  .dropdown-icon {
+    font-size: 0.875rem; /* 14px */
+    color: #333;
+    margin-left: 0.25rem; /* Space between text and dropdown icon */
+  }
+  
+  .filter-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .filter-icon {
+    width: 1.5rem; /* 24px */
+    height: 1.5rem; /* 24px */
+    display: block;
+  }
+  
+  
+  /* Profiles Section */
+.profiles-section {
+    padding: 1rem; /* Space around the section */
+    background-color: #fff;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    white-space: nowrap; /* Prevent items from wrapping */
+  }
+  
+  .profiles-container {
+    display: flex; /* Use flexbox for horizontal layout */
+    gap: 1rem; /* Space between profiles */
+  }
+  
+  .profile {
+    display: flex;
+    flex-direction: column; /* Stack image and name */
+    align-items: center; /* Center content */
+    justify-content: center;
+    text-align: center; /* Center text */
+    cursor: pointer;
+  }
+  
+  .profile img {
+    width: 3.75rem; /* 60px in rem */
+    height: 3.75rem;
+    border-radius: 50%; /* Circle shape */
+    border: 0.1875rem solid #6c5ce7; /* Purple border */
+    object-fit: contain;
+    box-shadow: 0 0 0.3125rem rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  .profile p {
+    font-family: inter;
+    margin-top: 0.5rem; /* Space between image and name */
+    font-size: 0.875rem; /* 14px */
+    color: #333; /* Dark text color */
+  }
+  
+  /* Add Profile Styling */
+  .profile.add {
+    background-color: #ddd;
+    width: 3.75rem;
+    height: 3.75rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border: 0.1875rem dashed #aaa; /* Dashed border for add profile */
+  }
+  
+  .profile.add .add-icon {
+    font-size: 1.5rem; /* Large plus icon */
+    color: #555;
+  }
+  
+  .profile.add p {
+    margin-top: 0.5rem;
+    font-size: 0.875rem;
+    color: #333;
+  }
+  
+  
+  /* Card Section */
+  .card {
+    position: relative;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .distance {
+    position: absolute;
+    top: 1rem; /* 16px */
+   font-family: Inter;
+   font-size: larger;
+   
+   height: 22px;
+    left: 1rem;
+    background: rgba(251, 245, 245, 0.6);
+    color: #fff;
+    padding: 0.25rem 0.5rem; /* 4px 8px */
+    font-size: 1rem; /* 12px */
+    border-radius: 0.625rem; /* 10px */
+  }
+  
+  .menu-btn {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: none;
+    border: none;
+    font-size: 1.25rem; /* 20px */
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .card-img {
+    width: 100%;
+    border-radius: 1.25rem; /* 20px */
+  }
+  
+  .card-content {
+    margin-top: -6.5rem; /* -40px */
+    padding: 0 1rem; /* 16px */
+    height: 200px;
+    background:#f5f4fc;
+   
+margin-bottom: 10px;
+    border-radius: 1.25rem; /* 20px */
+  }
+  
+  .name {
+    font-size: 1.5rem; /* 24px */
+    font-weight: bold;
+    margin: 0;
+    color: #fff;
+  }
+  
+  .location {
+    font-size: 1rem; /* 16px */
+    color: whitesmoke;
+  }
+  .location-text-below{
+    font-size: 1rem; /* 16px */
+font-size: larger;
+    color: whitesmoke;
+  }
+  .verified {
+    color: #ffc107;
+  }
+  
+  /* Action Buttons */
+
+  .actions {
+ 
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 0; /* 16px */
+    
+
+  }
+  
+  .action-btn {
+    width: 3.125rem; /* 50px */
+    height: 3.125rem;
+    border-radius: 50%;
+    border: none;
+    font-size: 1.25rem; /* 20px */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 0px;
+     margin-top: 30px;
+  }
+  
+  .dislike {
+    background: whitesmoke;
+    color: #6c5ce7;
+  }
+  
+  .like {
+    background: #6c5ce7;
+    color: #fff;
+  }
+  
+  .favorite {
+    background: #ffce31;
+    color: #333;
+  }
+  
+  /* Footer Navigation */
+  .footer {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    border-radius: 30px;
+    padding: 0.625rem 0; /* 10px */
+    border-top: 0.0625rem solid #ddd; /* 1px */
+    background: #000;
+   
+  }
+  
+  .nav-btn {
+    font-size: 1.25rem; /* 20px */
+    color: #fff;
+    background: none;
+    border: none;
+    cursor: pointer;
+    opacity: 0.5;
+  }
+  
+  .nav-btn.active {
+    opacity: 1;
+  }
+  

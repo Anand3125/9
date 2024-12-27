@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="256" height="256" viewBox="0 0 256 256" xml:space="preserve">
+
+<defs>
+</defs>
+<g style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;" transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)" >
+	<path d="M 44.921 33.071 h -35.3 c -1.169 0 -2.117 0.948 -2.117 2.117 v 19.623 c 0 1.169 0.948 2.117 2.117 2.117 h 35.3 c 1.169 0 2.117 -0.948 2.117 -2.117 V 35.188 C 47.038 34.019 46.09 33.071 44.921 33.071 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+	<path d="M 87.883 37.824 h -2.341 v -7.456 c 0 -2.647 -2.154 -4.801 -4.801 -4.801 H 4.801 C 2.154 25.567 0 27.721 0 30.368 v 29.263 c 0 2.647 2.154 4.801 4.801 4.801 h 75.94 c 2.647 0 4.801 -2.154 4.801 -4.801 v -7.456 h 2.341 c 1.169 0 2.117 -0.948 2.117 -2.117 V 39.942 C 90 38.772 89.052 37.824 87.883 37.824 z M 82.559 59.631 c 0 1.002 -0.816 1.818 -1.818 1.818 H 4.801 c -1.002 0 -1.818 -0.816 -1.818 -1.818 V 30.368 c 0 -1.002 0.815 -1.818 1.818 -1.818 h 75.94 c 1.002 0 1.818 0.815 1.818 1.818 V 59.631 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+</g>
+</svg>
